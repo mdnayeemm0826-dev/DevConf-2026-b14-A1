@@ -168,3 +168,135 @@ outline:none;
 
 
 
+
+
+.pricing{
+    padding: 100px 0;
+    background: #ffffff;
+}
+
+
+.pricing .pricing-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pricing .pricing-title h2{
+    font-size: 48px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.pricing .pricing-title p{
+    color: #6b7280;
+    font-size: 16px;
+}
+
+
+.pricing .pricing-card-sec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+
+
+.pricing .pricing-card{
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.pricing .pricing-card.pro{
+    background: #0f172a;
+    border: none;
+}
+
+
+.pricing .pricing-card .plan-name{
+    font-size: 12px;
+    color: #6b7280;
+    margin-bottom: 15px;
+}
+
+.pricing .pricing-card.pro .plan-name{
+    color: #94a3b8;
+}
+
+.pricing .pricing-card .price{
+    font-size: 55px;
+    color: #111827;
+    margin-bottom: 5px;
+}
+
+.pricing .pricing-card.pro .price{
+    color: white;
+}
+
+.pricing .pricing-card .per-person{
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.pricing .pricing-card .standard-btn{
+    border: 2px solid #2563eb;
+    color: #2563eb;
+}
+
+.pricing .pricing-card.pro .per-person{
+    color: #cbd5e1;
+}
+.pricing .pricing-card .pro-btn{
+    background: #2563eb;
+    color: white;
+}
+
+
+.pricing .pricing-card hr{
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 25px 0;
+}
+
+.pricing .pricing-card.pro hr{
+    border-color: #334155;
+}
+
+
+.pricing .pricing-card ul{
+    list-style: disc;
+    padding-left: 18px;
+    margin-bottom: 30px;
+}
+
+.pricing .pricing-card ul li{
+    font-size: 14px;
+    color: #4b5563;
+    margin-bottom: 14px;
+    line-height: 1.7;
+}
+
+.pricing .pricing-card.pro ul li{
+    color: #e5e7eb;
+}
+
+
+.pricing .pricing-card .pricing-btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+
+
+.pricing .pricing-card .team-btn{
+    border: 2px solid #111827;
+    color: #111827;
+}
+
