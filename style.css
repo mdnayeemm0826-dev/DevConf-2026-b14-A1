@@ -53,3 +53,52 @@ header{
     border-radius: 8px;
 }
 /* common style */
+
+
+
+
+.hero{
+    height: 500px;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("images/banner.jpg");
+        /* help chatgpt for darkness image */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    ;
+   
+    text-align: center;
+    color: white;
+    padding: 40px;
+ h1{
+    font-size: 40px;
+ }
+   h1,p{
+    margin-bottom: 40px;
+   }
+ p{
+    font-size: 18px;
+ }
+
+
+  button{
+    margin-top: 200px;
+    padding: 8px 20px;
+border:none;
+outline:none;
+    a{
+        text-decoration: none;
+         color: white;
+         font: bold;
+         font-size: 18px;
+
+
+    }
+  }
+
+}
