@@ -102,3 +102,69 @@ outline:none;
   }
 
 }
+
+
+
+.speakers{
+    width: 80%;
+    margin: 100px auto;
+
+    h2{
+    text-align: center;
+    margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+
+.speaker{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+/* Card */
+
+.speaker-card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Image */
+
+.speaker-card img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    
+}
+
+/* Content */
+
+.speaker-info{
+    padding: 20px;
+}
+
+.speaker-info h5{
+    color: #2563eb;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.speaker-info h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.speaker-info p{
+    color: #777;
+    font-size: 14px;
+}
+
+
+
