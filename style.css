@@ -300,3 +300,118 @@ outline:none;
     color: #111827;
 }
 
+
+.faq {
+  background: #ffffff;
+  padding: 80px 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq__inner {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.faq__title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #111111;
+  margin: 0 0 12px;
+}
+
+.faq__subtitle {
+  font-size: 16px;
+  color: #666666;
+  margin: 0 0 40px;
+}
+
+.faq__list {
+  text-align: left;
+}
+
+.faq__item {
+  background: #f8f9fb;
+  border: 1px solid #e2e5eb;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 4px 20px;
+}
+
+.faq__question {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111111;
+  padding: 16px 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+/* remove default arrow in browsers that support it */
+.faq__question::-webkit-details-marker {
+  display: none;
+}
+
+/* custom plus/minus icon */
+.faq__question::before {
+  content: "+";
+  display: inline-block;
+  width: 20px;
+  font-weight: 800;
+  color: #3355e0;
+}
+
+.faq__item[open] .faq__question::before {
+  content: "−";
+}
+
+.faq__answer {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555555;
+  margin: 0;
+  padding: 0 0 16px 20px;
+}
+
+/* focus state for accessibility */
+.faq__question:focus {
+  outline-offset: 2px;
+}
+/* ===== /FAQ SECTION ===== */
+
+
+
+.footer-section {
+  background: #0e1c30;
+  padding: 22px 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-footer{
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.site-footer-copy {
+  font-size: 14px;
+  color: #b7c0d8;
+  margin: 0;
+}
+
+.site-footer-links {
+  display: flex;
+  gap: 28px;
+}
+
+.site-footer-link {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
